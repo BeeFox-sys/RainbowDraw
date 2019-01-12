@@ -52,3 +52,6 @@ function draw() {
    prevPoint = createVector(point.x,point.y);
   }
 }
+function windowResized() {
+  resizeCanvas(windowWidth,windowHeight)
+}
